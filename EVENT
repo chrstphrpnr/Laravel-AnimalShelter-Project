@@ -1,0 +1,6 @@
+1.Register the event in event service provider
+
+'App\Events\RescuerCreated' => [
+            'App\Listeners\SendUserNotification',
+
+2. php artisan event:generate

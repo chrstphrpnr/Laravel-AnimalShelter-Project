@@ -1,0 +1,18 @@
+1. Create Model(database) in cmd.
+    php artisan make: model "TABLE NAME"  -m
+
+2. Create the migration script for the model
+
+3. Migrate the model
+    php artisan model
+
+4. Add Route
+    Use App\Http\Controllers\'NAME OF CONTROLLER'
+    Route::get('/name of controller', [CLASSNAME of controller::class, 'index'])'
+
+5.Go to controller and create different functions
+php artisan make:controller sharkController --resource
+
+6. Create a blade.php
+
+php artisan make:model animal_injury -m

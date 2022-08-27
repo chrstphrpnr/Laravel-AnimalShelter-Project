@@ -1,0 +1,60 @@
+Refactor animal rescue project code
+
+        Mp1 10pts
+        ***Add relationship methods to all models. E.g. hasMany, belongsTo
+
+        Unit 1 20pts
+        **Create multiuser (administrator, employee, rescuer, adopter) authentication using middleware.
+
+        The user will be redirected to a profile page that will display the ff:
+
+        Mp2 10pts EMPLOYEE vet profile
+        **Animal records that the vet has taken care of.
+
+        Mp3 10pts RESCUER profile
+        Animals that were rescued
+
+        Mp4 10pts ADOPTER profile
+        Animals that were adopted
+
+        Use eager loading.
+        Mp5 10pts
+        **The user can update his/her profile
+
+        Unit 2 10pts
+        Create a search function for guests using spatie searchable.
+
+        Quiz 1 20pts 
+        Use Laravel Datatables for CRUD operations (animal,rescuer,employee,disease/injury)
+        Admin Dashboard
+
+        mp6 10pts
+        The dashboard will only be accessible to the administrator
+        the administrator can change his profile
+
+        mp7 5pts 
+        create a bar chart of the number of animals that were adopted per month.
+
+        mp8 5pts
+        create a bar chart of the number of animals that were rescued per month.
+
+        mp9 5pts
+        create a pie chart of the common diseases/injuries of rescues.
+
+        mp10 10pts.
+        administrator can deactivate employees.
+
+
+Quiz 2 10pts
+Adopter self registration with email confirmation. you can use built in email confirmation.
+
+        quiz 3 10pts
+        create a comment box for guests on the profile of the dog or cat
+
+
+
+Term test choose any of the following (20pts)
+1. Use attach/associate method in the adoption process,animal health status and rescuers turning over strays. (10pts)
+2. use Events to automatically email vets about new rescues.
+        (10pts)
+3. use any profanity filter package on the comment box e.g askedio package. (10pts)
